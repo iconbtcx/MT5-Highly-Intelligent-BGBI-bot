@@ -7,3 +7,8 @@ bc1qhmfpdz987wzk2ls6dchg0kf62nxdznenkw9sy42wqhmyqp6w8j5st5s30r
 and 
 WARNING:-friends to run this bot first you need to set up kronos bridge and one more things this bot does not backtested because it performance
 relies on three live bridges data so do not get performance results through back test
+Requirements
+Python 3.12
+websocket-client pip install
+Allow URL in MT5 for each pair
+127.0.0.1:8786-8798
