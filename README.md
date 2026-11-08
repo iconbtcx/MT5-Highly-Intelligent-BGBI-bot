@@ -4,3 +4,6 @@ iconbtcx@gmail.com and further developers are invited
 donations are welcome 0x915d1f07b0749840c6678942e0f7a7a45acdb623 BSC ETH USDT
 TPTnLzhZ7XGS3jW76v8jCVe7wpXkm9YTnT
 bc1qhmfpdz987wzk2ls6dchg0kf62nxdznenkw9sy42wqhmyqp6w8j5st5s30r
+and 
+WARNING:-friends to run this bot first you need to set up kronos bridge and one more things this bot does not backtested because it performance
+relies on three live bridges data so do not get performance results through back test
