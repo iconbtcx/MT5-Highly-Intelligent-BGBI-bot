@@ -1,0 +1,10 @@
+BGBI-INTELLIGENT-PERFECT V3.2 — ROUTE-REPAIR + PEAK-LOCK
+
+- Retained V3.1 peak-profit ratchet parameters and logic.
+- Direct CUSUM shock fallback: replaces immediate market chase with an M1 completed-bar continuation STOP beyond the impulse high/low, with ATR/stop-level buffer and maximum chase distance. If the candidate is too extended or sending is rejected, the current shock signal is consumed rather than handed to a different market-entry route.
+- R7_CHOP range route: qualified edge LIMIT is paired with one opposite-direction breakout contingency STOP beyond the same range edge. Lower-edge setup = BUY LIMIT + SELL STOP below range floor; upper-edge setup = SELL LIMIT + BUY STOP above range ceiling. Both legs have individual SL/TP and share the planned engine risk; partial submission is rolled back.
+- Added per-symbol/per-magic campaign ownership gate. Entry dispatcher returns while a position or pending campaign exists. If a position exists with pending orders, same-symbol pending orders are cancelled.
+- On any confirmed entry deal, all remaining same-symbol/same-magic pending orders are cancelled without relying on the position list refresh timing. Campaign ownership is checked before pause/daily/message-budget gates so an open position still triggers leftover-order cleanup.
+- Updated on-chart/runtime version identity to V3.2.
+- Included 11 presets updated with all 435 input names. Bridge scripts and references are copied unchanged.
+- Static checks only. NOT MetaEditor-compiled; NOT MT5 Strategy Tester-validated. Do not use as a verified release or infer profitability from static checks.

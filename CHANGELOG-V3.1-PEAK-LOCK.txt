@@ -1,0 +1,10 @@
+BGBI-INTELLIGENT-PERFECT V3.1 PEAK-LOCK — CHANGELOG
+
+- Kept V3's entry routing, risk governor, compression OCO and range-edge LIMIT route.
+- Fixed peak-profit ratchet being too late for small but meaningful open gains: arm threshold changed from 1.20R to 0.15R; giveback from 0.45R to 0.05R.
+- Changed minimum lock distance from -0.10R to +0.05R (spread/cost floor still applies).
+- Removed the requirement that current net P/L remain positive for the peak giveback to qualify; if the intended lock price has already been crossed, the configured close fallback may close the position at the available market price.
+- M1/M5 reversal confirmation is now optional; included presets disable it so the measured peak giveback itself can trigger protection promptly.
+- Added clearer logs for peak-profit ratchet, missed lock price, and modification failure.
+- Presets retain the existing 429 input keys and symbol-specific bridge/profile mapping.
+- NOT MetaEditor-compiled or MT5 Strategy Tester-validated; do not treat as a verified release or profitability guarantee.

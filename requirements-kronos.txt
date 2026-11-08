@@ -1,0 +1,10 @@
+# Compatible with the uploaded Kronos source. Install on Windows/Python 3.10+.
+numpy>=1.24,<3
+pandas==2.2.2
+torch>=2.0.0
+einops==0.8.1
+huggingface_hub==0.33.1
+safetensors==0.6.2
+tqdm==4.67.1
+MetaTrader5>=5.0.45
+websocket-client>=1.8,<2

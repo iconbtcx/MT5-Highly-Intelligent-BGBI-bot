@@ -1,0 +1,223 @@
+{
+  "build": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR",
+  "source_file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR.mq5",
+  "source_lines": 10538,
+  "source_bytes": 391768,
+  "input_count": 435,
+  "input_unique_count": 435,
+  "input_duplicates": [],
+  "delimiter_checks": {
+    "braces": {
+      "balance": 0,
+      "minimum_depth": 0
+    },
+    "parentheses": {
+      "balance": 0,
+      "minimum_depth": 0
+    },
+    "brackets": {
+      "balance": 0,
+      "minimum_depth": 0
+    }
+  },
+  "critical_features": {
+    "single_campaign_guard_count": 1,
+    "symbol_pending_cleanup_count": 1,
+    "range_hybrid_log_count": 1,
+    "shock_stop_log_count": 1,
+    "peak_ratchet_function_count": 1,
+    "campaign_guard_before_pause_gate": true,
+    "entry_fill_cleanup_unconditional": true,
+    "cusum_alone_does_not_force_expansion": true,
+    "range_limit_and_breakout_stop_route": true,
+    "shock_continuation_stop_route": true
+  },
+  "sets_count": 11,
+  "set_reports": [
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-BNBUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "BNBUSD",
+      "expected_port": "8796",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-BTCUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "BTCUSD",
+      "expected_port": "8787",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-DE40.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "DE40",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-ETHUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "ETHUSD",
+      "expected_port": "8795",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-EURUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "EURUSD",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-GBPUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "GBPUSD",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-SOLUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "SOLUSD",
+      "expected_port": "8788",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-USDCAD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "USDCAD",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-USDJPY.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "USDJPY",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-XAUUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "XAUUSD",
+      "expected_port": "0",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.2-ROUTE-REPAIR-XRPUSD.set",
+      "keys": 435,
+      "unique_keys": 435,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "expected_profile": "XRPUSD",
+      "expected_port": "8790",
+      "range_contingency": "true",
+      "shock_stop": "true"
+    }
+  ],
+  "profile_port_checks": [
+    {
+      "symbol": "BNBUSD",
+      "port": "8796",
+      "ok": true
+    },
+    {
+      "symbol": "BTCUSD",
+      "port": "8787",
+      "ok": true
+    },
+    {
+      "symbol": "DE40",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "ETHUSD",
+      "port": "8795",
+      "ok": true
+    },
+    {
+      "symbol": "EURUSD",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "GBPUSD",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "SOLUSD",
+      "port": "8788",
+      "ok": true
+    },
+    {
+      "symbol": "USDCAD",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "USDJPY",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "XAUUSD",
+      "port": "0",
+      "ok": true
+    },
+    {
+      "symbol": "XRPUSD",
+      "port": "8790",
+      "ok": true
+    }
+  ],
+  "bridge_python_syntax": {
+    "BGBI-Crypto-Live-Flow-Bridge.py": "PASS",
+    "BGBI-USD-Live-Hybrid-Bridge-V1.1.py": "PASS"
+  },
+  "metaeditor_compiled": false,
+  "mt5_strategy_tester_run": false,
+  "status": "STATIC CHECKS ONLY; COMPILER AND STRATEGY TESTER VALIDATION REQUIRED"
+}

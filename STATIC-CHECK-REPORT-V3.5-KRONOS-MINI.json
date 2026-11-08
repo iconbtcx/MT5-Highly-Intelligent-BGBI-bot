@@ -1,0 +1,139 @@
+{
+  "package": "BGBI V3.5 Kronos-Mini Integrated Demo Candidate",
+  "build_time_utc": "2026-10-28T11:44:06.621876+00:00",
+  "source_lines": 10774,
+  "declared_input_count": 446,
+  "duplicate_input_declarations": [],
+  "structural_delimiter_counts": {
+    "{": 1141,
+    "}": 1141,
+    "(": 6738,
+    ")": 6738,
+    "[": 426,
+    "]": 426
+  },
+  "set_summaries": [
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-BNBUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-BTCUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-DE40.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-ETHUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-EURUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-GBPUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-SOLUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-USDCAD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-USDJPY.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-XAUUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.5-KRONOS-MINI-INTEGRATED-XRPUSD.set",
+      "inputs": 446,
+      "kronos_keys": 11,
+      "missing_source_inputs": [],
+      "unknown_set_keys": []
+    }
+  ],
+  "python_files": [
+    {
+      "file": "Bridges/BGBI-Crypto-Live-Flow-Bridge.py",
+      "syntax": "PASS",
+      "lines": 2254
+    },
+    {
+      "file": "Bridges/BGBI-USD-Live-Hybrid-Bridge-V1.1.py",
+      "syntax": "PASS",
+      "lines": 511
+    },
+    {
+      "file": "Bridges/BGBI-Kronos-Mini-Bridge.py",
+      "syntax": "PASS",
+      "lines": 379
+    },
+    {
+      "file": "KronosSource/model/__init__.py",
+      "syntax": "PASS",
+      "lines": 17
+    },
+    {
+      "file": "KronosSource/model/kronos.py",
+      "syntax": "PASS",
+      "lines": 662
+    },
+    {
+      "file": "KronosSource/model/module.py",
+      "syntax": "PASS",
+      "lines": 570
+    }
+  ],
+  "limitations": [
+    "Not compiled by MetaEditor",
+    "Not run in MT5 Strategy Tester",
+    "Kronos historical replay not implemented",
+    "No profitability claim"
+  ],
+  "validation_notes": [
+    "Python files syntax-parsed; this is not a runtime inference test.",
+    "MQL source delimiters are balanced and input identifiers show no duplicates; not a MetaEditor compile.",
+    "All 11 .set files map to 446 EA inputs without missing or unknown keys in this static check.",
+    "No MT5 Strategy Tester or demo execution was available; no profitability claim.",
+    "Kronos live HTTP input is disabled by the EA in Strategy Tester; timestamped offline replay is still required for AI historical validation."
+  ]
+}

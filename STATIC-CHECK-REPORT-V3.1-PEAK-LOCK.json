@@ -1,0 +1,169 @@
+{
+  "build": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK",
+  "source_lines": 10367,
+  "source_bytes": 381776,
+  "brace_balance": 0,
+  "minimum_brace_depth": 0,
+  "declared_inputs": 429,
+  "duplicate_input_names": 0,
+  "presets": [
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-BNBUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "BNBUSD",
+      "crypto_port": 8796,
+      "UseBinanceFlow": "true",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-BTCUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "BTCUSD",
+      "crypto_port": 8787,
+      "UseBinanceFlow": "true",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-DE40.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "DE40",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-ETHUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "ETHUSD",
+      "crypto_port": 8795,
+      "UseBinanceFlow": "true",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-EURUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "EURUSD",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-GBPUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "GBPUSD",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-SOLUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "SOLUSD",
+      "crypto_port": 8788,
+      "UseBinanceFlow": "true",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-USDCAD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "USDCAD",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-USDJPY.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "USDJPY",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-XAUUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "XAUUSD",
+      "crypto_port": 0,
+      "UseBinanceFlow": "false",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.1-PEAK-LOCK-XRPUSD.set",
+      "keys": 429,
+      "duplicates": 0,
+      "profile": "XRPUSD",
+      "crypto_port": 8790,
+      "UseBinanceFlow": "true",
+      "Ratchet_ArmPeakR_V2": "0.15",
+      "Ratchet_GivebackR_V2": "0.05",
+      "Ratchet_MinCurrentR_V2": "0.05",
+      "V3RatchetRequireM5Confirmation": "false"
+    }
+  ],
+  "function_reference_counts_including_calls": {
+    "V3_RangeLimitRoute": 2,
+    "V3_MaintainRangeLimits": 2,
+    "V3_FastImpulseTickPulse": 2,
+    "V3_ProfileMatchesChart": 2,
+    "V3_SyncAccountSafetyState": 4,
+    "V3_ConfirmedAdverseReversal": 2,
+    "V3_RollbackNewPendingOrders": 5,
+    "V2_ManageOnePosition": 2
+  },
+  "peak_lock_logic": {
+    "arm_R": 0.15,
+    "giveback_R": 0.05,
+    "retain_peak_percent": 50.0,
+    "min_lock_R": 0.05,
+    "m1_m5_confirmation_in_presets": false,
+    "current_net_must_stay_positive": false
+  },
+  "metaeditor_compiled": false,
+  "mt5_strategy_tester_run": false,
+  "limitations": [
+    "Static checks only; MetaEditor/MQL5 compiler unavailable here.",
+    "No MT5 Strategy Tester or broker forward-test execution was possible in this environment.",
+    "More responsive locks can close during ordinary volatility; broker stops and slippage can change realized outcome.",
+    "No profitability or win-rate guarantee."
+  ]
+}

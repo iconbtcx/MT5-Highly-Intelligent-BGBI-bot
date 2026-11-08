@@ -1,0 +1,137 @@
+{
+  "build": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE",
+  "source_file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE.mq5",
+  "source_lines": 10574,
+  "source_bytes": 393589,
+  "input_count": 435,
+  "input_group_count": 49,
+  "input_names_unique": true,
+  "delimiter_checks": {
+    "braces": {
+      "balance": 0,
+      "minimum_depth": 0
+    },
+    "parentheses": {
+      "balance": 0,
+      "minimum_depth": 0
+    },
+    "brackets": {
+      "balance": 0,
+      "minimum_depth": 0
+    }
+  },
+  "timeframe_fixes": {
+    "ER_uses_shift0": false,
+    "ER_starts_at_shift1": true,
+    "UseM5Confirm_now_consumed": true,
+    "UseMTFConfluence_now_consumed": true,
+    "M1_entry_dispatch": true,
+    "M5_direction_uses_closed_indicators": true,
+    "M15_direction_uses_closed_indicators": true
+  },
+  "preset_count": 11,
+  "preset_reports": [
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-BNBUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "BNBUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-BTCUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "BTCUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-DE40.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "DE40"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-ETHUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "ETHUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-EURUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "EURUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-GBPUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "GBPUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-SOLUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "SOLUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-USDCAD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "USDCAD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-USDJPY.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "USDJPY"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-XAUUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "XAUUSD"
+    },
+    {
+      "file": "BGBI-INTELLIGENT-PERFECT-V3.4-HTF-CLOSED-CONFLUENCE-XRPUSD.set",
+      "keys": 435,
+      "duplicates_detected_by_dict": false,
+      "missing_inputs": [],
+      "extra_keys": [],
+      "M15VetoEventAgeMin": "15",
+      "expected_profile": "XRPUSD"
+    }
+  ],
+  "metaeditor_compiled": false,
+  "mt5_strategy_tester_run": false,
+  "status": "STATIC CHECKS ONLY; COMPILER AND STRATEGY TESTER VALIDATION REQUIRED"
+}

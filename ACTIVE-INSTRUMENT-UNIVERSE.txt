@@ -1,0 +1,21 @@
+BGBI active instrument map
+==========================
+
+MT5 active symbols:
+  Crypto: BTCUSD, ETHUSD, BNBUSD, SOLUSD, XRPUSD
+  Forex:  EURUSD, GBPUSD, USDCAD, USDJPY
+  Index:  DE40
+
+Binance crypto-feed mapping:
+  BTCUSD -> BTCUSDT -> 8787
+  SOLUSD -> SOLUSDT -> 8788
+  XRPUSD -> XRPUSDT -> 8790
+  ETHUSD -> ETHUSDT -> 8795
+  BNBUSD -> BNBUSDT -> 8796
+
+Kronos default symbol list:
+  btcusd, ethusd, bnbusd, solusd, xrpusd,
+  eurusd, gbpusd, usdcad, usdjpy, de40
+
+No other cryptocurrency is configured in the active manager.
+XAUUSD is retained as an optional preset but is excluded from the active list.

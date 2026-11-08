@@ -1,0 +1,10 @@
+BGBI-INTELLIGENT-PERFECT V3.3 — TIMEFRAME-CLOSED-BAR PATCH
+
+- Confirmed fixed strategy-timeframe usage: M1 trigger/dispatch, M5 confirmation/volatility, M15 bias/structure; no core _Period/PERIOD_CURRENT dependencies.
+- M5 slope now uses the last completed M5 candle and the completed candle five bars before it (buffer shifts 1 and 6).
+- M15 KAMA slope now compares completed M15 bars (shifts 1 and KAMA_SlopeBars+1).
+- M15 OBV and OBV signal context now use completed M15 bars (shift 1).
+- All 11 presets changed M15VetoEventAgeMin from 5 to 15 minutes so M15 structural veto freshness spans one M15 interval.
+- Preserved H1 hard veto disabled in all presets; this remains an M1 micro-entry strategy with M5/M15 confirmation, not an H1 trend-only system.
+- No bridge logic or risk/entry sizing parameters deliberately changed in this patch.
+- Static checks only. NOT MetaEditor-compiled; NOT MT5 Strategy Tester-validated. Do not treat this as a verified profitable release.

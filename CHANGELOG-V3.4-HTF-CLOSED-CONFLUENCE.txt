@@ -1,0 +1,7 @@
+V3.4-HTF-CLOSED-CONFLUENCE CHANGELOG
+
+- Corrected CalculateER_TF so it no longer uses the forming shift-0 candle for the ER endpoint/path on M5/M15. It now samples a consistent set of completed closes at shifts 1 through period+1.
+- Added V3_HTFEntryGate and called it from EntryAllowed after the regime gate. For MONSTER/SWING: when UseM5Confirm=true, M5 direction (or M5 SMC bias fallback) must match; when UseMTFConfluence=true, a directly opposing M15 direction/SMC bias blocks the entry. M15 neutral is allowed to avoid making this a strict three-timeframe unanimity requirement.
+- RANGE and REVERSAL are not subjected to this directional gate; their dedicated routes/veto logic remains in place.
+- No lot-size/risk percentage changes were made in this timeframe-specific patch.
+- MetaEditor compile and MT5 Strategy Tester execution were not available; this is a demo candidate only.

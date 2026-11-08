@@ -1,0 +1,18 @@
+BGBI V3.5 KRONOS-MINI — CHANGELOG
+
+1. Added local forecast-only API client to the V3.4 EA.
+2. Added bounded forecast score shift (maximum 7 score points; default preset weights 2/3/2 for M1/M5/M15). Technical direction is unchanged.
+3. Added optional strict confirmation mode for MONSTER/SWING. Presets are set to advisory mode (1), not hard-confirm mode (2).
+4. Added cautious CHOP escape only after the existing range route returns no handled campaign, and only when independent expansion evidence + cost-filtered Kronos M1/M5 agreement + technical M5 alignment + no M15 opposition are present. EntryAllowed retains all original risk gates and enforces escape direction.
+5. Health_Init no longer registers crypto-flow streams for charts with UseBinanceFlow=false; this prevents known irrelevant stale-feed diagnostics on forex/gold/index.
+6. HTTP helper now accepts an optional timeout for the local cached endpoint; existing bridge calls retain their original timeout.
+7. Added shared Python Kronos-Mini service that reads closed MT5 candles, forecasts M1/M5/M15, caches predictions and exposes GET /snapshot and GET /health on localhost only. It has no trade execution functions.
+
+VALIDATION
+- Python syntax parsing and static structural checks were run.
+- 11 set files were updated to include the 11 Kronos inputs.
+- Not compiled by MetaEditor; MQL5 compilation must be verified by the user.
+- Not executed in the MT5 Strategy Tester or demo; no profitability claim.
+- Tester use of live HTTP forecasts is disabled in the EA. Offline historical forecast replay is not yet integrated; therefore do not treat a normal Strategy Tester report as a test of Kronos influence.
+
+8. Final bridge hardening: validates fresh closed-bar timestamps, requires a current bid/ask before emitting a non-neutral direction, re-evaluates cached predictions against current spread, marks forecasts invalid on retrieval/model errors, and requires MT5 connectivity for a healthy snapshot.

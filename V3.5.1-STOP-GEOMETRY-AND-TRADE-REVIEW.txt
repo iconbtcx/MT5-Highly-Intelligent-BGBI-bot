@@ -1,0 +1,37 @@
+BGBI V3.5.1 — STOP-GEOMETRY PATCH / TRADE REVIEW
+
+Scope
+- Based on the supplied BGBI-SUPER-PERFECT-CORRECTED V3.5 package.
+- One source-level calculation is corrected: SlippagePoints is no longer included in ComputeSLDistance().
+- SlippagePoints remains available for CTrade/OrderSend execution deviation.
+- New stop distances continue to use ATR, spread, broker stop-level and safety-floor logic.
+- All ten active instrument presets are retained unchanged. XAUUSD remains optional and outside the target universe.
+
+Why this correction was made
+- The previous formula was (CurrentSpreadPoints + SlippagePoints) * _Point * SL_SpreadMultiplier.
+- Presets used SlippagePoints=200 and SL_SpreadMultiplier=2.0.
+- On 5-digit FX quotes this mechanically added about 40 pips before the spread component.
+- The supplied open-position screenshot showed approximately 41.6–42.3 pip stops on EURUSD, GBPUSD, USDCAD and USDJPY, consistent with this calculation.
+
+Visible history sample supplied 2026-11-05
+- 12 visible closed trades: gross wins +9.28; gross losses -40.70; net -31.42; PF approximately 0.228; 4 wins and 8 losses.
+- Three visible DE40 losses total -30.04. Small sample; not a long-run performance estimate.
+- Separate live-position screenshot showed floating P/L -12.70 and an XAUUSD position.
+
+Important controls not changed in this patch
+- Kronos remains Mode 1 advisory (bounded score contribution); no direct SL/TP or lot-size authority.
+- Profit ratchet settings and TP_RR_Swing=3.50 remain unchanged to keep this a single-variable patch.
+- The configured account-wide risk governor counts open positions and pending orders sharing the same MagicNumber across symbols. An out-of-universe XAUUSD position can therefore consume portfolio risk budget.
+
+Validation status
+- Source text replacement and archive integrity are checked.
+- MetaEditor compilation, Strategy Tester validation, historical forecast replay and demo execution have NOT been performed here.
+- This is a DEMO-ONLY candidate. Do not replace an EA on a chart that is managing an open position without first arranging safe position management.
+- Existing positions and pending orders retain their already-placed SL/TP; this source correction affects newly calculated orders after the patched EA is compiled and attached.
+
+Next controlled tests
+1. Compile in MetaEditor and resolve any compiler errors before attaching.
+2. Run a demo A/B with identical presets: current V3.5 versus V3.5.1 stop fix.
+3. Separately test the profit ratchet with M5 confirmation disabled/enabled; do not combine this change with the stop patch in the first comparison.
+4. Record every entry, initial SL, initial TP, exit reason, peak R, realized R, spread and slippage.
+5. Keep XAUUSD outside the active target set; safely manage its existing position/order before detaching its EA.
