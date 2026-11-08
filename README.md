@@ -12,3 +12,5 @@ Python 3.12
 websocket-client pip install
 Allow URL in MT5 for each pair
 127.0.0.1:8786-8798
+Run the three bridges and properly attach the pair specific set file
+THE BOT SHOULD BE ATTACHED TO M1 TIME FRAME
